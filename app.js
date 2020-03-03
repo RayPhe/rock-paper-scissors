@@ -69,7 +69,7 @@ const game = () => {
 
         const winner = document.querySelector(".winner");
         if(playerChoice === computerChoice){
-            wimmer.textContent = "It's a draw";
+            winner.textContent = "It's a draw";
             return;
         }
         // checking for rock
